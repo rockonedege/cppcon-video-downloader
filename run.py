@@ -13,6 +13,7 @@ def get_one(index):
   title = re.findall(r'<title>(.+)</title>?', r.text)[0]
   title = re.sub(r'(&#?\w+;)|([)(\s:?<>|"\\/*]+)', '-', title)
   title = re.sub('-+', '-', title)
+  title = title.replace("'", r"\'")
 
   url = re.findall(r'rel="Mp4High?" href="([^_]+?_high\.mp4)"?', r.text)
   if not url:

@@ -2,7 +2,7 @@ wget https://sec.ch9.ms/ch9/21ab/10e8428f-231a-4ef0-a9db-cba485a921ab/001_high.m
 wget https://sec.ch9.ms/ch9/0354/b99662c5-08b1-4918-a916-fb1ebc4e0354/002_high.mp4 -O C-as-a-Live-at-Head-Language-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/3c19/ebb22c52-33f0-428e-ad11-dbde84f73c19/003_high.mp4 -O Meta-Thoughts-on-generative-C-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/9802/bca680e5-9fda-4af7-a48c-5ef7832e9802/004_high.mp4 -O Qt-as-a-C-Framework-History,-Present-State-and-Future-CppCon-2017-Channel-9_high.mp4
-wget https://sec.ch9.ms/ch9/0821/179621a6-a3a7-412f-9a43-29b760d10821/005_high.mp4 -O What-Has-My-Compiler-Done-for-Me-Lately-Unbolting-the-Compiler's-Lid-CppCon-2017-Channel-9_high.mp4
+wget https://sec.ch9.ms/ch9/0821/179621a6-a3a7-412f-9a43-29b760d10821/005_high.mp4 -O What-Has-My-Compiler-Done-for-Me-Lately-Unbolting-the-Compiler\'s-Lid-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/91d9/eab25764-22ce-484c-a895-9a299e6a91d9/006_high.mp4 -O Designing-New-C-Hardware-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/e940/11c4ff51-fac8-425d-9722-f15944ace940/007_high.mp4 -O Programming-with-C-Constraints-Background,-Utility,-and-Gotchas-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/6411/7cc66859-c4db-49c1-a92f-e0d081f26411/008_high.mp4 -O Which-Machine-Am-I-Coding-To-CppCon-2017-Channel-9_high.mp4
@@ -11,7 +11,7 @@ wget https://sec.ch9.ms/ch9/a3a6/11bace9b-9b92-4307-8097-cadb52dda3a6/010_high.m
 wget https://sec.ch9.ms/ch9/e4ed/eb31f275-1144-440c-a0bb-ad50fa75e4ed/011r_high.mp4 -O The-Quiet-Little-Gem-in-Modern-C-＜system_error＞-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/6463/77a5b6ca-2dbe-4bbd-a885-aa9692856463/012_high.mp4 -O C-Development-with-Visual-Studio-Code-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/689c/f1fbe44a-22f0-4cfc-8d15-3355cd3a689c/013_high.mp4 -O Modern-C-Interfaces-Complexity,-Emergent-Simplicity,-SFINAE,-and-Second-Order-Properties-of-Types-CppCon-2017-Channel-9_high.mp4
-wget https://sec.ch9.ms/ch9/795f/e20728d3-4e37-4eb2-bf7b-bb47bec9795f/014_high.mp4 -O Coroutines-what-can't-they-do-CppCon-2017-Channel-9_high.mp4
+wget https://sec.ch9.ms/ch9/795f/e20728d3-4e37-4eb2-bf7b-bb47bec9795f/014_high.mp4 -O Coroutines-what-can\'t-they-do-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/2ed3/b25b268d-3889-4c0f-b371-71dc7f102ed3/015_high.mp4 -O constexpr-ALL-the-Things!-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/0909/59027a47-b0dd-442a-8ca4-007c85c80909/016_high.mp4 -O Time-Travel-Debugging-Root-Causing-Bugs-in-Commercial-Scale-Software-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/856c/133fc6d8-ada2-453a-b53b-2e217a49856c/017_high.mp4 -O EA’s-Secret-Weapon-Packages-and-Modules-CppCon-2017-Channel-9_high.mp4
@@ -51,8 +51,8 @@ wget https://sec.ch9.ms/ch9/17e8/1ee3672c-923d-4397-85ac-3b43fa1b17e8/050_high.m
 wget https://sec.ch9.ms/ch9/b9d5/24826cb3-1fd4-4230-9e87-461ea3b5b9d5/051_high.mp4 -O Agent-based-class-design-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/859d/10db7783-bc28-4e83-8170-01c4b96f859d/052_high.mp4 -O Multithreading-is-the-answer.-What-is-the-question-part-2-of-2-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/e970/b1d5d065-af0d-411c-9452-5523f001e970/053_high.mp4 -O Using-Functional-Programming-Patterns-to-build-a-clean-and-simple-HTTP-routing-API-CppCon-2017-Channel-9_high.mp4
-wget https://sec.ch9.ms/ch9/34b6/b267d6fa-f046-48d3-a02f-41e5a17c34b6/054_high.mp4 -O Designing-A-Feature-That-Doesn't-Fit-CppCon-2017-Channel-9_high.mp4
-wget https://sec.ch9.ms/ch9/7499/18a039ff-e2ec-427c-924c-3a9723387499/055_high.mp4 -O Local-'Arena'-Memory-Allocators-part-2-of-2-CppCon-2017-Channel-9_high.mp4
+wget https://sec.ch9.ms/ch9/34b6/b267d6fa-f046-48d3-a02f-41e5a17c34b6/054_high.mp4 -O Designing-A-Feature-That-Doesn\'t-Fit-CppCon-2017-Channel-9_high.mp4
+wget https://sec.ch9.ms/ch9/7499/18a039ff-e2ec-427c-924c-3a9723387499/055_high.mp4 -O Local-\'Arena\'-Memory-Allocators-part-2-of-2-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/9219/41297db8-50ef-43af-a679-4a1a0d249219/056_high.mp4 -O Postmodern-C-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/77c2/879bece1-39a1-43b0-844e-b0ac823c77c2/057_high.mp4 -O Practical-C-17-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/1c90/a83a8c8a-9ce6-41f5-89ff-d92c3dee1c90/058_high.mp4 -O Hands-On-With-Abseil-CppCon-2017-Channel-9_high.mp4
@@ -69,7 +69,7 @@ wget https://sec.ch9.ms/ch9/14d8/30aff231-26fe-4ffe-9d55-3286284714d8/068_high.m
 wget https://sec.ch9.ms/ch9/90ae/cd037efe-b353-44a6-ba2c-58bd8e7390ae/069_high.mp4 -O Driving-Into-the-Future-With-Modern-C-A-Look-at-Adaptive-Autosar-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/1e9e/52419fda-b789-4d5a-9812-a29563731e9e/070_high.mp4 -O Naivety-of-Creating-Cross-Platform,-Modern-C-Libraries-A-Tour-Of-Our-Challenges-and-Successes-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/2e42/b0d07268-a717-4885-9c1a-a649d0992e42/071_high.mp4 -O C-Templates-Revised-CppCon-2017-Channel-9_high.mp4
-wget https://sec.ch9.ms/ch9/703a/738ea7d1-b39c-4ef5-87a4-0d013db6703a/072_high.mp4 -O Local-'Arena'-Memory-Allocators-part-1-of-2-CppCon-2017-Channel-9_high.mp4
+wget https://sec.ch9.ms/ch9/703a/738ea7d1-b39c-4ef5-87a4-0d013db6703a/072_high.mp4 -O Local-\'Arena\'-Memory-Allocators-part-1-of-2-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/e8d8/b59a6767-a18b-4373-87bb-8ffad85fe8d8/073_high.mp4 -O Read,-Copy,-Update,-then-what-RCU-for-non-kernel-programmers-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/40dc/c5f8d946-3bd6-44f9-a68c-bf24522640dc/074_high.mp4 -O Undefined-Behavior-in-2017-part-1-of-2-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/cf63/bad7d09f-217a-4448-9087-6a084c75cf63/075_high.mp4 -O Undefined-Behavior-in-2017-part-2-of-2-CppCon-2017-Channel-9_high.mp4
@@ -89,7 +89,7 @@ wget https://sec.ch9.ms/ch9/8b8a/97f192fb-f204-4d54-882d-6655a79e8b8a/088_high.m
 wget https://sec.ch9.ms/ch9/ca36/71e32092-1394-4f64-a7ed-bedaaf53ca36/089_high.mp4 -O Practical-Techniques-for-Improving-C-Build-Times-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/f6e3/8e253977-e8bb-4751-af84-e6481b6df6e3/090_high.mp4 -O How-to-Write-a-Custom-Allocator-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/6e56/de878485-5bb1-486e-9d94-53012f746e56/091_high.mp4 -O A-Tour-of-Deep-Learning-With-C-CppCon-2017-Channel-9_high.mp4
-wget https://sec.ch9.ms/ch9/d502/9a3fe461-7ee8-4a3a-b5d1-d233c537d502/092_high.mp4 -O C-and-Persistent-Memory-Technologies,-Like-Intel's-3D-XPoint-CppCon-2017-Channel-9_high.mp4
+wget https://sec.ch9.ms/ch9/d502/9a3fe461-7ee8-4a3a-b5d1-d233c537d502/092_high.mp4 -O C-and-Persistent-Memory-Technologies,-Like-Intel\'s-3D-XPoint-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/9f1c/435f71ce-3b1c-49ca-8b1e-24c3c3e69f1c/093_high.mp4 -O Naked-coroutines-live-with-networking-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/f190/9a6f6995-9ad0-4921-b688-e61eb1cff190/094_high.mp4 -O LauncherOne-rocket-with-C-engine-CppCon-2017-Channel-9_high.mp4
 wget https://sec.ch9.ms/ch9/4332/3177638b-9024-4393-b6bb-9a8b0e1e4332/095_high.mp4 -O So,-you-inherited-a-large-code-base...-CppCon-2017-Channel-9_high.mp4
