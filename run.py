@@ -8,7 +8,7 @@ output_folder.mkdir(exist_ok=True)
 
 
 def make_cmd(url, name):
-    return f'wget {url} -O {name}_high.mp4'
+    return f'wget {url} -O {name}'
 
 def clean(s):
     s = s.strip()
@@ -62,7 +62,7 @@ def run():
         for a in get_one_year(yr, url):
             url = a['downloads'][-1]['url']
             ext = url.rsplit('.')[-1]
-            cmds.append(make_cmd(url, f'{a["title"]}.{ext}'))
+            cmds.append(make_cmd(url, f'{a["title"]}_high.{ext}'))
 
         (output_folder / f'{yr}.sh').write_text('\n'.join(cmds), encoding='utf-8')
         
