@@ -7,8 +7,9 @@ output_folder = Path('output')
 output_folder.mkdir(exist_ok=True)    
 
 
-def make_cmd(url, name):
-    return f'wget {url} -O {name}'
+def make_cmd(url, name, tool = 'wget'):
+    '''tool can be wget, curl or aria2'''
+    return f'{tool} {url} -O {name}'
 
 def clean(s):
     s = s.strip()
@@ -44,7 +45,7 @@ def get_one_year(year, url):
 
 def run():
 
-    for yr, url in [
+    for name, url in [
         ('build-2018', 'https://s.ch9.ms/Events/Build/2018/RSS/mp4high'),
         ('cppcon-2017', 'https://s.ch9.ms/Events/GoingNative/CppCon-2017/RSS/mp4high'),
         ('cppcon-2016', 'https://s.ch9.ms/Events/CPP/CppCon-2016/RSS/mp4high'),
@@ -54,14 +55,14 @@ def run():
         ('cppcon-2012', 'https://s.ch9.ms/Events/GoingNative/GoingNative-2012/RSS/mp4high')
         ]:
         
+        print(f'processing {name} ...')
         cmds = []
-        for a in get_one_year(yr, url):
+        for a in get_one_year(name, url):
             url = a['url']
-            print(url)
             ext = url.rsplit('.')[-1]
             cmds.append(make_cmd(url, f'{a["title"]}_high.{ext}'))
 
-        (output_folder / f'{yr}.sh').write_text('\n'.join(cmds), encoding='utf-8')
+        (output_folder / f'{name}.sh').write_text('\n'.join(cmds), encoding='utf-8')
         
 
 if __name__ == '__main__':
