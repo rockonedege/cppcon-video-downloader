@@ -44,7 +44,7 @@ wget http://video.ch9.ms/ch9/4332/3177638b-9024-4393-b6bb-9a8b0e1e4332/095_high.
 wget http://video.ch9.ms/ch9/f190/9a6f6995-9ad0-4921-b688-e61eb1cff190/094_high.mp4 -O LauncherOne-rocket-with-C++-engine_high.mp4
 wget http://video.ch9.ms/ch9/9f1c/435f71ce-3b1c-49ca-8b1e-24c3c3e69f1c/093_high.mp4 -O Naked-coroutines-live-with-networking-_high.mp4
 wget http://video.ch9.ms/ch9/d502/9a3fe461-7ee8-4a3a-b5d1-d233c537d502/092_high.mp4 -O C++-and-Persistent-Memory-Technologies-Like-Intel-s-3D-XPoint_high.mp4
-wget http://video.ch9.ms/ch9/6e56/de878485-5bb1-486e-9d94-53012f746e56/091_mid.mp4 -O A-Tour-of-Deep-Learning-With-C++_high.mp4
+wget http://video.ch9.ms/ch9/6e56/de878485-5bb1-486e-9d94-53012f746e56/091_high.mp4 -O A-Tour-of-Deep-Learning-With-C++_high.mp4
 wget http://video.ch9.ms/ch9/f6e3/8e253977-e8bb-4751-af84-e6481b6df6e3/090_high.mp4 -O How-to-Write-a-Custom-Allocator_high.mp4
 wget http://video.ch9.ms/ch9/ca36/71e32092-1394-4f64-a7ed-bedaaf53ca36/089_high.mp4 -O Practical-Techniques-for-Improving-C++-Build-Times_high.mp4
 wget http://video.ch9.ms/ch9/8b8a/97f192fb-f204-4d54-882d-6655a79e8b8a/088_high.mp4 -O Mix-Tests-and-Production-Code-With-Doctest-Implementing-and-Using-the-Fastest-Modern-C++-Testing-Framework_high.mp4

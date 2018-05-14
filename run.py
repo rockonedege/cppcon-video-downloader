@@ -36,13 +36,9 @@ def get_one_year(year, url):
 
         author = item.findall('dc:creator', ns)[0].text
 
-        downloads = [dict(url = m.get('url'),
-                        size = int(m.get('fileSize')),
-                        type = m.get('fileSize'),
-                        ) for m in item.findall('media:group', ns)[0]]
-        downloads = sorted(downloads, key=lambda x: x['size'])
+        url = item.find('enclosure').get('url')
 
-        all_.append(dict(title=clean(title), link = link, author = author, downloads = downloads))
+        all_.append(dict(title=clean(title), link = link, author = author, url = url))
 
     return all_
 
@@ -51,16 +47,19 @@ def get_one_year(year, url):
 def run():
 
     for yr, url in [
+        ('build-2018', 'https://s.ch9.ms/Events/Build/2018/RSS/mp4high'),
         (2017, 'https://s.ch9.ms/Events/GoingNative/CppCon-2017/RSS/mp4high'),
         (2016, 'https://s.ch9.ms/Events/CPP/CppCon-2016/RSS/mp4high'),
         (2015, 'https://s.ch9.ms/Events/CPP/CppCon-2015/RSS/mp4high'),
         (2014, 'https://s.ch9.ms/Events/CPP/C-PP-Con-2014/RSS/mp4high'),
         (2013, 'https://s.ch9.ms/Events/GoingNative/2013/RSS/mp4high'),
-        (2012, 'https://s.ch9.ms/Events/GoingNative/GoingNative-2012/RSS/mp4high')]:
+        (2012, 'https://s.ch9.ms/Events/GoingNative/GoingNative-2012/RSS/mp4high')
+        ]:
         
         cmds = []
         for a in get_one_year(yr, url):
-            url = a['downloads'][-1]['url']
+            url = a['url']
+            print(url)
             ext = url.rsplit('.')[-1]
             cmds.append(make_cmd(url, f'{a["title"]}_high.{ext}'))
 
