@@ -42,18 +42,16 @@ def get_one_year(year, url):
 
     return all_
 
-
-
 def run():
 
     for yr, url in [
         ('build-2018', 'https://s.ch9.ms/Events/Build/2018/RSS/mp4high'),
-        (2017, 'https://s.ch9.ms/Events/GoingNative/CppCon-2017/RSS/mp4high'),
-        (2016, 'https://s.ch9.ms/Events/CPP/CppCon-2016/RSS/mp4high'),
-        (2015, 'https://s.ch9.ms/Events/CPP/CppCon-2015/RSS/mp4high'),
-        (2014, 'https://s.ch9.ms/Events/CPP/C-PP-Con-2014/RSS/mp4high'),
-        (2013, 'https://s.ch9.ms/Events/GoingNative/2013/RSS/mp4high'),
-        (2012, 'https://s.ch9.ms/Events/GoingNative/GoingNative-2012/RSS/mp4high')
+        ('cppcon-2017', 'https://s.ch9.ms/Events/GoingNative/CppCon-2017/RSS/mp4high'),
+        ('cppcon-2016', 'https://s.ch9.ms/Events/CPP/CppCon-2016/RSS/mp4high'),
+        ('cppcon-2015', 'https://s.ch9.ms/Events/CPP/CppCon-2015/RSS/mp4high'),
+        ('cppcon-2014', 'https://s.ch9.ms/Events/CPP/C-PP-Con-2014/RSS/mp4high'),
+        ('cppcon-2013', 'https://s.ch9.ms/Events/GoingNative/2013/RSS/mp4high'),
+        ('cppcon-2012', 'https://s.ch9.ms/Events/GoingNative/GoingNative-2012/RSS/mp4high')
         ]:
         
         cmds = []
