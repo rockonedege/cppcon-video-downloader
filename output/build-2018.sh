@@ -8,7 +8,7 @@ wget http://video.ch9.ms/ch9/e371/c868c99d-d750-4331-9628-0d951eb8e371/BRK2516_h
 wget http://video.ch9.ms/ch9/a85f/55b9734b-409c-47f4-8a87-0970386da85f/BRK2418_high.mp4 -O -NEW-SESSION-Build-an-interactive-payment-experience-into-Outlook_high.mp4
 wget http://video.ch9.ms/ch9/46ab/a88c4947-7cf6-457f-86a9-ae70e10f46ab/BRK2402_high.mp4 -O -NEW-SESSION-Build-intelligent-analytics-apps-with-Microsoft-Graph-and-Azure-capabilities_high.mp4
 wget http://video.ch9.ms/ch9/d855/5ee7fb9a-7914-41ab-8dcd-08abc40fd855/BRK2104_high.mp4 -O -NEW-SESSION-Azure-Blockchain-Create-and-deploy-multi-party-applications-with-Workbench_high.mp4
-wget http://video.ch9.ms/ch9/50bc/edd2b8f0-1bc9-4177-9d52-45e4b12750bc/Build2018WhatsNewInAzureServerless_high.mp4 -O What-s-New-in-Azure-Serverless_high.mp4
+wget http://video.ch9.ms/ch9/f000/8ff5790d-b3f5-4e79-88fa-d3720cedf000/Build2018WhatsNewInAzureServerlessv2_high.mp4 -O What-s-New-in-Azure-Serverless_high.mp4
 wget http://video.ch9.ms/ch9/8cc0/fac5c02d-2fab-42d3-9ff6-bd94a4b98cc0/THR3804_high.mp4 -O From-Remote-Graphics-Workstation-to-Machine-Learning-GPU-for-every-workload-in-Azure_high.mp4
 wget http://video.ch9.ms/ch9/3187/aac24044-9706-402b-b33c-519109df3187/THR3801_high.mp4 -O Break-through-the-serverless-barriers-with-Durable-Functions_high.mp4
 wget http://video.ch9.ms/ch9/7935/3c931375-042b-4b8d-82ea-96222e607935/THR3602_high.mp4 -O Operations-at-big-scale-Inside-the-Microsoft-enterprise_high.mp4
@@ -97,7 +97,7 @@ wget http://video.ch9.ms/ch9/a47d/12361893-05e4-489b-a338-a186f144a47d/THR5060_h
 wget http://video.ch9.ms/ch9/2f2b/131aedcc-4f56-4018-8ffe-b3f514692f2b/C9L15_high.mp4 -O Day-2-Recap-with-Jeff-and-Charlotte_high.mp4
 wget http://video.ch9.ms/ch9/0de0/56b79ee0-9fd8-4099-9075-5512e7090de0/Build2018AmandaSilverIntelliCode_high.mp4 -O Visual-Studio-Futures-IntelliCode-and-Live-Share_high.mp4
 wget http://video.ch9.ms/ch9/7dd4/156f6199-5e94-46af-bd16-d77c3e0e7dd4/Build2018PastPresentFutureDotNet_high.mp4 -O Past-Present-and-Future-of-NET_high.mp4
-wget http://video.ch9.ms/ch9/7c48/a97c5468-4fd2-453a-a0b3-20ab1fa57c48/Build18CloudMigrationApp_high.mp4 -O Cloud-Migration-App-Development_high.mp4
+wget http://video.ch9.ms/ch9/03ed/6bb1f3ec-1118-40bf-a2a4-69c40db203ed/Build2018CloudMigrationAppDev_high.mp4 -O Cloud-Migration-App-Development_high.mp4
 wget http://video.ch9.ms/ch9/65c6/4fe00959-671e-4914-8f43-e593721765c6/THR5064_high.mp4 -O How-VSTS-can-power-your-process-and-product-documentation-needs-with-markdown-powered-Wiki_high.mp4
 wget http://video.ch9.ms/ch9/6264/bd621671-39fe-4f9b-8f45-913aa5e56264/THR5063_high.mp4 -O Build-anything-using-VSTS-Cloud-hosted-Mac-Windows-and-Linux-build-agents_high.mp4
 wget http://video.ch9.ms/ch9/1153/738d5eef-3eaf-4647-b74d-c72bc9491153/THR5062_high.mp4 -O Share-code-and-collaborate-on-your-next-project-using-Git-and-pull-requests-hosted-by-VSTS_high.mp4

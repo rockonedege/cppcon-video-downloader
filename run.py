@@ -4,7 +4,9 @@ import re
 # from pprint import pprint as print
 
 output_folder = Path('output')
+rss_folder = Path('rss')
 output_folder.mkdir(exist_ok=True)    
+rss_folder.mkdir(exist_ok=True)    
 
 
 def make_cmd(url, name, tool = 'wget'):
@@ -17,11 +19,11 @@ def clean(s):
     s = re.sub('-+', '-', s.strip())
     return s
 
-def get_one_year(year, url):
+def get_one_rss(name, url):
 
     r = requests.get(url)
 
-    (output_folder / f'ch9-{year}.xml').write_text(r.text, encoding='utf-8')
+    (rss_folder / f'ch9-{name}.xml').write_text(r.text, encoding='utf-8')
 
 
     import xml.etree.ElementTree as ET  
@@ -47,6 +49,7 @@ def run():
 
     for name, url in [
         ('build-2018', 'https://s.ch9.ms/Events/Build/2018/RSS/mp4high'),
+        ('Connect()-2017', 'https://s.ch9.ms/Events/Connect/2017/RSS/mp4high'),
         ('cppcon-2017', 'https://s.ch9.ms/Events/GoingNative/CppCon-2017/RSS/mp4high'),
         ('cppcon-2016', 'https://s.ch9.ms/Events/CPP/CppCon-2016/RSS/mp4high'),
         ('cppcon-2015', 'https://s.ch9.ms/Events/CPP/CppCon-2015/RSS/mp4high'),
@@ -57,7 +60,7 @@ def run():
         
         print(f'processing {name} ...')
         cmds = []
-        for a in get_one_year(name, url):
+        for a in get_one_rss(name, url):
             url = a['url']
             ext = url.rsplit('.')[-1]
             cmds.append(make_cmd(url, f'{a["title"]}_high.{ext}'))
